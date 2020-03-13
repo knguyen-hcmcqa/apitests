@@ -8,17 +8,16 @@ import utils.ApiUtils;
 
 public class BaseTest {
 
-    public Response res = null; //Response
-    public JsonPath jp = null; //JsonPath
+    public Response res = null;
+    public JsonPath jp = null;
 
     TestUtils testUtils = new TestUtils();
 
     @BeforeClass
     public void setup() {
-        //Test Setup
-        ApiUtils.setBaseURI(); //Setup Base URI
-        ApiUtils.setBasePath("posts"); //Setup Base Path
-        ApiUtils.setContentType(ContentType.JSON); //Setup Content Type
+        ApiUtils.setBaseURI();
+        ApiUtils.setBasePath("posts");
+        ApiUtils.setContentType(ContentType.JSON);
     }
 
     @AfterClass
