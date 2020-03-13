@@ -32,7 +32,6 @@ public class ApiUtils {
         given().contentType(Type);
     }
 
-
     public static Response getResponsebyPath(String path) {
         return get(path);
     }
