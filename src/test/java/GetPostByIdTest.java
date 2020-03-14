@@ -36,6 +36,6 @@ public class GetPostByIdTest extends BaseTest {
     public void T05_CheckSchemaValidity()
     {
         res = ApiUtils.getResponsebyPath("/1");
-        testUtils.checkSchemaValidity(res, "postById_schema.json");
+        testUtils.checkSchemaValidity(res, "single_post_schema.json");
     }
 }

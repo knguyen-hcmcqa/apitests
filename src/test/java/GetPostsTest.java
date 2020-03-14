@@ -27,6 +27,6 @@ public class GetPostsTest extends BaseTest {
     public void T04_CheckSchemaValidity()
     {
         res = ApiUtils.getResponse();
-        testUtils.checkSchemaValidity(res, "posts_schema.json");
+        testUtils.checkSchemaValidity(res, "list_post_schema.json");
     }
 }
