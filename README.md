@@ -9,5 +9,5 @@ git clone https://github.com/knguyen-hcmcqa/apitests.git
 - mvn test
 
 4. View test report
-- Find qatests/target/surefire-reports/index.html
+- Find apitests/target/surefire-reports/index.html
 
