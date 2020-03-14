@@ -1,6 +1,6 @@
 # API Tests
 1. Get the source code from Github
-git clone https://github.com/knguyen-hcmcqa/apitests.git
+- git clone https://github.com/knguyen-hcmcqa/apitests.git
 
 2. Open IntelliJ IDEA then open the project
 
